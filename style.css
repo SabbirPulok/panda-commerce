@@ -2,6 +2,7 @@
 {
     margin-bottom: 100px;
 }
+
 .orange-bg
 {
     background-color: #fceae8;
@@ -23,4 +24,51 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+.categories img
+{
+    width: 100px;
+}
+.cat1,.cat2,.cat3
+{
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+.cat1
+{
+    background-image: linear-gradient(to bottom, #FF9C35 0%, #FFD019 100%);
+}
+.cat2
+{
+    background-image: linear-gradient(to bottom,#FF589B 0%, #FF136F 100%);   
+}
+.cat3
+{
+    background-image: linear-gradient(to bottom, #4289FF 0%, #07F8C3 100%);
+}
+.card
+{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 8px;
+}
+.card-footer
+{
+    background-color: white;
+    border-top: none;
+    padding: 10px 0px;
+}
+#subscribe
+{
+    height: 300px;
+}
+#subscribe h6
+{
+    color: gray;
+}
+footer
+{
+    text-align: center;
 }
